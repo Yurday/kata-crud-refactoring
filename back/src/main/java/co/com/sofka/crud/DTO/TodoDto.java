@@ -1,8 +1,8 @@
-package co.com.sofka.crud;
+package co.com.sofka.crud.DTO;
 
 import java.io.Serializable;
 
-public class TodoDTO implements Serializable {
+public class TodoDto implements _DTOEntity {
     private Long id;
     private String name;
     private boolean completed;

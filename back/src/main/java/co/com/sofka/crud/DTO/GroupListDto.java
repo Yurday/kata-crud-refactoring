@@ -1,12 +1,12 @@
-package co.com.sofka.crud;
+package co.com.sofka.crud.DTO;
 
 import java.util.List;
 
-public class ListDTO {
+public class GroupListDto {
 
     private Long id;
     private String name;
-    private List<TodoDTO> todosDTO;
+    private List<TodoDto> todosDTO;
 
 
 
@@ -22,11 +22,11 @@ public class ListDTO {
         this.name = name;
     }
 
-    public List<TodoDTO> getTodosDTO() {
+    public List<TodoDto> getTodosDTO() {
         return todosDTO;
     }
 
-    public void setTodosDTO(List<TodoDTO> todosDTO) {
+    public void setTodosDTO(List<TodoDto> todosDTO) {
         this.todosDTO = todosDTO;
     }
 }
