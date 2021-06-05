@@ -16,7 +16,7 @@ public class TodoService {
         return repository.findAll();
     }
 
-    public TodoDto save(TodoDto){
+    public TodoDto save(TodoDto)
         return repository.save(todoDTO);
     }
 

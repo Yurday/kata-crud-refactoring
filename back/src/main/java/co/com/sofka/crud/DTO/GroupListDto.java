@@ -2,17 +2,13 @@ package co.com.sofka.crud.DTO;
 
 import java.util.List;
 
-public class GroupListDto {
+public class GroupListDto implements _DTOEntity{
 
-    private Long id;
+
     private String name;
     private List<TodoDto> todosDTO;
 
 
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;
